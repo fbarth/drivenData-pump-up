@@ -1,0 +1,42 @@
+---
+output: html_document
+---
+Exercício: criando um classificador para identificar bombas de água com falha
+==============================================================================
+
+Contexto e objetivo
+-------------------
+
+Using data from [Taarifa](http://taarifa.org/) and the [Tanzanian Ministry of Water](http://maji.go.tz/), can you predict which pumps are functional, which need some repairs, and which don't work at all?
+
+Predict one of these three classes based on a number of variables about what kind of pump is operating, when it was installed, and how it is managed. A smart understanding of which waterpoints will fail can improve maintenance operations and ensure that clean, potable water is available to communities across Tanzania.
+
+Dataset
+-------
+
+O dataset está disponível no site [Driven Data](https://www.drivendata.org) dentro da competição _Pump it Up: Data Mining the Water Table_.
+
+Para ter acesso ao dataset é necessário se cadastrar na competição. 
+
+O que deve ser entregue
+-----------------------
+
+Cada equipe, composta por até 2 integrantes, deve submeter o seu modelo no site Driven Data e criar um
+relatório descrevendo o que foi feito.
+
+O relatório deve conter: 
+
+* Como os dados foram adquiridos e como os dados foram pré-processados;
+* A análise descritiva dos dados. Não é necessário apresentar toda a análise. Apenas apresente 
+aquilo que é relevante para o relatório final, por exemplo, os principais padrões que contribuem
+para a construção do classificador.
+* Quais as etapas para construção do classificador e avaliação do classificador.
+* Os resultados encontrados pelos classificadores desenvolvidos e a colocação obtida no site Driven Data.
+
+Entrega
+-------
+
+O prazo máximo para entrega do relatório é **22 de setembro de 2016**. 
+
+Cada equipe deve entregar o script R que faz a aquisição, pré-processamento, modelagem e avaliação do modelo (com matriz de classificação).
+
